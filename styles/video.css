@@ -1,13 +1,14 @@
 .videos-grid {
-  margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
+  padding: 0 20px 0 100px;
 }
 
 .video-thumbnail {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .thumbnail-img {
@@ -17,6 +18,7 @@
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
+  cursor: pointer;
 }
 
 .profile-picture {
