@@ -140,3 +140,14 @@
 .notifications-container {
   position: relative;
 }
+
+.notifications-num {
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  background-color: rgb(201, 0, 0);
+  color: white;
+  font-size: 14px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px;
+}
